@@ -12,4 +12,4 @@ RUN chmod 755 /entrypoint.bash
 
 USER nobody
 
-ENTRYPOINT [ "/entrypoint.bash" ]
+ENTRYPOINT [ "/entrypoint.bash" ] #CMD command can be used as well
